@@ -4,4 +4,6 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-
+  tags:
+    - short greeting
+    - salutation
