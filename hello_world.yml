@@ -10,7 +10,7 @@
         - tag, with comma
     - name: Goodbye Message
       debug:
-        msg: "Goodbye World!
+        msg: "Goodbye World!"
       tags:
         - short message
         - goodbye
