@@ -5,11 +5,13 @@
       debug:
         msg: "Hello World!
       tags:
-        - short greeting
+        - short message
         - hello
+        - tag, with comma
     - name: Goodbye Message
       debug:
         msg: "Goodbye World!
       tags:
-        - short greeting
+        - short message
         - goodbye
+        - tag, with comma
