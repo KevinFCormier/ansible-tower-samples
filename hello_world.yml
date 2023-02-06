@@ -3,7 +3,13 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello World!"
-  tags:
-    - short greeting
-    - salutation
+        msg: "Hello World!
+      tags:
+        - short greeting
+        - hello
+    - name: Goodbye Message
+      debug:
+        msg: "Goodbye World!
+      tags:
+        - short greeting
+        - goodbye
